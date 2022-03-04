@@ -21,33 +21,39 @@ html {
 }
 
 
+/* Container  */
 
-
-/* Navbar  */
-header {
-    background-color: #f8f7f8;
-    position: sticky;
-    top: 0;
-    z-index: 5;
-}
-
-#mainNavbar, #mainContent, footer {
-    width: 95%;
+#mainNavbar, #mainContent, #globalLeader, #businessOverview, #overviews, footer {
+    width: 93%;
     margin: 0 auto;
 }
 
 @media screen and (max-width:420px) {
-    #mainContent {
+    #mainContent, footer {
         width: 85%;
     }
 }
 
-@media screen and (max-width:820px) {
+@media screen and (min-width:421px) and (max-width:820px) {
     #mainContent, footer {
         width: 90%;
     }
 }
 
+
+
+/* Navbar  */
+header {
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    border-bottom: 1px solid #cccccc;
+}
+
+#mainNavbar .nav-item {
+    height: 100%;
+}
 
 #mainNavbar .nav-item a {
     color: #8c8c8c !important;
@@ -55,13 +61,14 @@ header {
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 13px;
+    padding: 25px 13px;
     /* padding-bottom: 10px; */
     transition: color 0.3s ease-out;
     border-bottom: 2px solid transparent;
 }
 
-#mainNavbar .nav-item a:hover {
+#mainNavbar .nav-item a:hover,
+#mainNavbar .nav-item .active {
     border-bottom: 2px solid #8c8c8c;
     color: #73623d !important;
 }
@@ -155,6 +162,72 @@ header {
 
 
 
+/* Business  */
+
+/* Global Leader Section  */
+
+#globalLeader h1, #globalLeader h2, #businessOverview .title h1, #businessOverview .title h2 {
+    letter-spacing: 1px;
+    line-height: 0.9em;
+    font-weight: lighter;
+    text-transform: none;
+}
+
+#globalLeader h1, #businessOverview .title h1 {
+    font-size: 54px;
+    color: #73623d;
+}
+
+#globalLeader h2 {
+    color: #757a7e;
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#globalLeader hr {
+    width: 60px;
+    border-top-width: 2px;
+    color: #504327;
+    border-top-style: solid;
+
+}
+
+#globalLeader strong {
+    color: #757a7e;
+}
+
+#globalLeader p {
+    font-size: 1rem;
+    color: #a8a8a8;
+}
+
+
+
+/*  Business Overview */
+
+#businessOverview .title {
+    text-align: right;
+}
+
+#businessOverview .title h2 {
+    color: #757a7e;
+    font-size: 28px;
+}
+
+#businessOverview hr {
+    margin-left: 6%;
+    margin-top: 30px;
+    border-color: #73623d;
+    color: #73623d;
+}
+
+#businessOverview hr:not([size]) {
+    height: 2px;
+    color: #73623d;
+}
+
+
 
 
 /* Footer  */
@@ -194,6 +267,38 @@ footer li {
     font-weight: 400;
     text-transform: uppercase;
 }
+
+footer .weatherSection {
+    background-color: #e8e8e8;
+    width: 200px;
+}
+
+@media screen and (max-width:425px) {
+    footer .weatherSection {
+        width: 166px;
+    }
+}
+
+footer .weatherSection .summery {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: .65;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2em;
+    font-size: 11px;
+}
+
+footer .weatherSection .weekdays .week {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #8989893a;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
 
 #copyright {
     background-color: #f8f8f8;

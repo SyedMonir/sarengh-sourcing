@@ -29,7 +29,7 @@ html {
 }
 
 @media screen and (max-width:420px) {
-    #mainContent, footer {
+    #mainContent, #globalLeader,#businessOverview, footer {
         width: 85%;
     }
 }
@@ -64,12 +64,12 @@ header {
     padding: 25px 13px;
     /* padding-bottom: 10px; */
     transition: color 0.3s ease-out;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
 #mainNavbar .nav-item a:hover,
 #mainNavbar .nav-item .active {
-    border-bottom: 2px solid #8c8c8c;
+    border-bottom: 3px solid #8c8c8c;
     color: #73623d !important;
 }
 
@@ -176,6 +176,7 @@ header {
 #globalLeader h1, #businessOverview .title h1 {
     font-size: 54px;
     color: #73623d;
+    letter-spacing: 1px;
 }
 
 #globalLeader h2 {
@@ -226,6 +227,57 @@ header {
     height: 2px;
     color: #73623d;
 }
+
+
+
+/* Overviews */
+.overview {
+    display: flex;
+}
+#overviews .icon {
+    background-color: #86754d;
+    color: #ffffff;
+    width: 74px;
+    height: 74px;
+    font-size: 27px;
+    line-height: 72px;
+    border: 1px solid #73623d;
+    border-radius: 500px;
+    text-align: center;
+    margin-right: 22px;
+}
+
+#overviews h3 {
+    color: #757a7e;
+    margin: 0 0 -3px 0;
+    padding: 2px 0 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+#overviews p{
+    font-size: 1rem;
+    margin: 0.85em 0;
+    color: #a8a8a8;
+}
+
+
+/* company-values */
+
+#company-values .company-value-text {
+    background: url('../media/img/business/image-back-business-newtimes-2-1500x410.jpg');
+    /* background-position: co; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5.5rem;
+    width: 100%;
+}
+
+
+
 
 
 

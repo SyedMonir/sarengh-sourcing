@@ -23,7 +23,7 @@ html {
 
 /* Container  */
 
-#mainNavbar, #mainContent, #globalLeader, #businessOverview, #overviews, #headingTechnology, footer {
+#mainNavbar, #mainContent, #globalLeader, #businessOverview, #overviews, #headingTechnology, #bodyOfTechnology, footer {
     width: 93%;
     margin: 0 auto;
 }
@@ -38,6 +38,13 @@ html {
     #mainContent, footer {
         width: 90%;
     }
+}
+
+/* HR  */
+.hr {
+    border-bottom: 2px solid #73623d;
+    width: 20%;
+    margin: 15px 0;
 }
 
 
@@ -299,6 +306,8 @@ header {
 
 
 
+/* Technology Heading */
+
 #headingTechnology strong {
     color: #757a7e;
 }
@@ -323,18 +332,33 @@ header {
     letter-spacing: 1px;
 }
 
-#headingTechnology hr {
-    min-height: 3px;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 60px;
-    background-color: #73623d;
-    /* line-height: 25px;
-    border-top-width: 2px; */
+
+
+/* Technology Body  */
+
+#bodyOfTechnology h1, #bodyOfTechnology h2 {
+    color: #73623d;
+    font-size: 54px;
+    line-height: 0.9em;
+    font-weight: lighter;
+    text-transform: none;
+    letter-spacing: 1px;
 }
 
+#bodyOfTechnology h2 {
+    color: #757a7e;
+    font-size: 28px;
+    margin: 15px 0;
+}
 
+#bodyOfTechnology p {
+    font-size: 1rem;
+    color: #a79f9f;
+}
 
+#bodyOfTechnology strong {
+    color: #757a7e;
+}
 
 
 

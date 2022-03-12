@@ -29,7 +29,7 @@ html {
 }
 
 @media screen and (max-width:420px) {
-    #mainContent, #globalLeader,#businessOverview, footer {
+    #mainContent, #globalLeader, #businessOverview, footer {
         width: 85%;
     }
 }
@@ -234,6 +234,7 @@ header {
 .overview {
     display: flex;
 }
+
 #overviews .icon {
     background-color: #86754d;
     color: #ffffff;
@@ -257,7 +258,7 @@ header {
     font-weight: 600;
 }
 
-#overviews p{
+#overviews p {
     font-size: 1rem;
     margin: 0.85em 0;
     color: #a8a8a8;
@@ -276,6 +277,15 @@ header {
     width: 100%;
 }
 
+#company-values .company-value-text .company-first-h1, .company-second-h1 {
+    font-size: 40.47px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+#company-values .company-value-text .company-second-h1 {
+    font-size: 50.47px;
+}
 
 
 

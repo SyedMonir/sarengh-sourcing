@@ -23,20 +23,22 @@ html {
 
 /* Container  */
 
-#mainNavbar, #mainContent, #globalLeader, #businessOverview, #overviews, #headingTechnology, #bodyOfTechnology, footer {
+#mainNavbar, #mainContent, #globalLeader, #businessOverview, #overviews, .customize-container, footer {
     width: 93%;
     margin: 0 auto;
 }
 
 @media screen and (max-width:420px) {
-    #mainContent, #globalLeader, #businessOverview, footer {
+    #mainContent, #globalLeader, #businessOverview, #headingTechnology, footer {
         width: 85%;
+        margin: 0 auto;
     }
 }
 
 @media screen and (min-width:421px) and (max-width:820px) {
     #mainContent, footer {
         width: 90%;
+        margin: 0 auto;
     }
 }
 
@@ -361,6 +363,23 @@ header {
 }
 
 
+
+/* Technology provided */
+
+#technologyProvided {
+    background-color: #86754d;
+    color: white;
+    padding: 50px 0;
+    line-height: 1.45em;
+    font-size: 1rem;
+}
+
+#technologyProvided ul li::marker {
+    content: '\f33b';
+    /* font-family: FontAwesome; */
+    font-size: 20px;
+    color: white;
+}
 
 
 

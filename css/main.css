@@ -374,9 +374,8 @@ header {
     font-size: 1rem;
 }
 
-#technologyProvided ul li::marker {
-    content: '\f33b';
-    /* font-family: FontAwesome; */
+#technologyProvided ul li {
+    list-style-type:square;
     font-size: 20px;
     color: white;
 }

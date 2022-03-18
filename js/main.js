@@ -15,5 +15,4 @@ $(".tabs a").click(function (e) {
 
 
 
-// Product Carousel 
 

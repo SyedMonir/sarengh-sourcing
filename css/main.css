@@ -456,7 +456,7 @@ header {
     height: 183px;
 }
 
-#productCarousel h2, #peopleHeading h1, #peopleHeadingTwo h1 , #csrHero h1{
+#productCarousel h2, #peopleHeading h1, #peopleHeadingTwo h1 , #csrHero h1, #pccHero h1{
     font-size: 54px;
     line-height: 0.9em;
     font-weight: lighter;
@@ -611,6 +611,59 @@ header {
 }
 
 
+
+
+
+
+
+
+/* PCC */
+
+/* PCC Hero Section  */
+#pccHero {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#pccHero h1 {
+    color: #005389;
+}
+
+#pccHero p {
+    line-height: 150%;
+    font-size: 1rem;
+    color: #a8a8a8;
+}
+
+#pccHero strong {
+    color: #757a7e;
+}
+
+
+
+/* PCC Service */
+
+#pccService {
+    /* width: 100%; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../media/img/pcc/fondomision2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8.5rem;
+}
+
+
+#pccService h2 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 0.9em;
+    font-weight: lighter;
+    text-transform: none;
+}
+
+#pccService p {
+    font-size: 1rem;
+    color: #a8a8a8;
+}
 
 
 

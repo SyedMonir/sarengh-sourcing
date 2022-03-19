@@ -279,7 +279,6 @@ header {
 
 #company-values .company-value-text {
     background: url('../media/img/business/image-back-business-newtimes-2-1500x410.jpg');
-    /* background-position: co; */
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -457,7 +456,7 @@ header {
     height: 183px;
 }
 
-#productCarousel h2, #peopleHeading h1, #peopleHeadingTwo h1 {
+#productCarousel h2, #peopleHeading h1, #peopleHeadingTwo h1 , #csrHero h1{
     font-size: 54px;
     line-height: 0.9em;
     font-weight: lighter;
@@ -478,12 +477,12 @@ header {
 
 
 /* People Heading One and two*/
-#peopleHeading h1, #peopleHeadingTwo h1 {
+#peopleHeading h1, #peopleHeadingTwo h1, #csrHero h1 {
     color: #73623d;
 }
 
 
-#peopleHeading h2, #peopleHeadingTwo h2, #peopleBody h4, #peopleBodyTwo h2 {
+#peopleHeading h2, #peopleHeadingTwo h2, #peopleBody h4, #peopleBodyTwo h2,#csrHero h2 {
     color: #757a7e;
     font-size: 28px;
     line-height: 0.9em;
@@ -501,7 +500,7 @@ header {
 
 /* People Body ONe & Two*/
 
-#peopleBody h4, #peopleBodyTwo h2 {
+#peopleBody h4, #peopleBodyTwo h2, #csrHero h2 {
     text-align: left;
     padding: 0;
 }
@@ -528,6 +527,7 @@ header {
 
 
 /* style-zone */
+
 .style-zone {
     margin: 70px auto;
     /* margin: auto; */
@@ -563,6 +563,57 @@ header {
     padding: 8px 6px;
     outline: none;
 }
+
+
+
+
+
+/* CSR  */
+
+/* CSR Hero Section */
+#csrHero h5{
+    color: #73623d;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    font-weight: 600;
+}
+
+#csrHero p{
+    color: #a8a8a8;
+}
+
+
+#compliance {
+    background: url('../media/img/csr/image-back-slide-csr-1500x410.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5.5rem;
+    width: 100%;
+}
+
+#compliance p {
+    margin-bottom: 0;
+    font-size: .9rem;
+}
+
+#compliance h4 {
+    font-size: 18.886px;
+    color: rgb(255, 255, 255);
+    white-space: normal;
+    margin: 0px;
+    z-index: auto;
+    width: 404.7px;
+    height: 45.866px;
+    border-width: 0px;
+    border-radius: 0px;
+    letter-spacing: 0px;
+}
+
+
+
+
+
 
 
 

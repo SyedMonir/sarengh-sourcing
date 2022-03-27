@@ -278,7 +278,7 @@ header {
 /* company-values */
 
 #company-values .company-value-text {
-    background: url('../media/img/business/image-back-business-newtimes-2-1500x410.jpg');
+    background: url('../media/img/business/image-back-business-2-1500x410.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -318,7 +318,7 @@ header {
     font-size: 1rem;
 }
 
-#headingTechnology h1, #headingTechnology h2, #headingProduct h1, #headingProduct h2 , #contact-title h2{
+#headingTechnology h1, #headingTechnology h2, #headingProduct h1, #headingProduct h2, #contact-title h2 {
     color: #757a7e;
     text-align: right;
     font-size: 28px;
@@ -456,7 +456,7 @@ header {
     height: 183px;
 }
 
-#productCarousel h2, #peopleHeading h1, #peopleHeadingTwo h1 , #csrHero h1, #pccHero h1{
+#productCarousel h2, #peopleHeading h1, #peopleHeadingTwo h1, #csrHero h1, #pccHero h1 {
     font-size: 54px;
     line-height: 0.9em;
     font-weight: lighter;
@@ -482,7 +482,7 @@ header {
 }
 
 
-#peopleHeading h2, #peopleHeadingTwo h2, #peopleBody h4, #peopleBodyTwo h2,#csrHero h2 {
+#peopleHeading h2, #peopleHeadingTwo h2, #peopleBody h4, #peopleBodyTwo h2, #csrHero h2 {
     color: #757a7e;
     font-size: 28px;
     line-height: 0.9em;
@@ -571,14 +571,14 @@ header {
 /* CSR  */
 
 /* CSR Hero Section */
-#csrHero h5{
+#csrHero h5 {
     color: #73623d;
     font-size: 1rem;
     line-height: 1.1rem;
     font-weight: 600;
 }
 
-#csrHero p{
+#csrHero p {
     color: #a8a8a8;
 }
 
@@ -672,7 +672,7 @@ header {
 
 
 /* Contact */
-#address p{
+#address p {
     font-size: 1rem;
     color: #a8a8a8;
 }
